@@ -27,7 +27,6 @@ const Contact = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        // Add your form submission logic here
         setSubmitted(true);
         setFormData({ name: "", email: "", message: "" });
     };
@@ -88,7 +87,7 @@ const Contact = () => {
                 </div>
             </motion.div>
 
-            {/* Contact Form (same as before) */}
+            {/* Contact Form  */}
             <motion.div
                 initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}

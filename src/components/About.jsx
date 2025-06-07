@@ -1,18 +1,18 @@
 import React from "react";
 import { motion } from "framer-motion";
 import PranjalImg from "../assets/pranjal.jpg"; 
-import IshuImg from "../assets/ishu.png"; // replace with actual path
+import IshuImg from "../assets/ishu.png";
 
 const authors = [
     {
         name: "Pranjal Agarwal",
-        image: PranjalImg, // replace with actual path
+        image: PranjalImg,
         role: "Frontend & Visualization",
         bio: "Pranjal is a final-year Computer Science student with a passion for algorithms, UI/UX, and building intuitive visual tools for complex concepts.",
     },
     {
         name: "Ishu Bansal",
-        image: IshuImg, // replace with actual path
+        image: IshuImg,
         role: "Backend & Algorithm Logic",
         bio: "Ishu is a systems thinker who enjoys implementing core algorithms and ensuring smooth, efficient performance in web-based tools.",
     },

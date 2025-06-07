@@ -4,7 +4,8 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import About from './components/About'
 import Home from './components/Home'
 import ContactUs from './components/ContactUs'
-import Visualizer from './components/Visualizer'
+// import Visualizer from './components/Visualizer'
+import HuffmanTree from './components/HuffmanTree'
 
 const App = () => {
   return (
@@ -15,7 +16,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/visualizer" element={<Visualizer />} />
+          <Route path="/visualizer" element={<HuffmanTree />} />
           <Route path="/contact" element={<ContactUs />} />
         </Routes>
       </Router>
