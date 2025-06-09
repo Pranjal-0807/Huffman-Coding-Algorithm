@@ -1,11 +1,10 @@
 import React from 'react'
-import Navbar from './components/Navbar'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import About from './components/About'
 import Home from './components/Home'
+import About from './components/About'
+import Navbar from './components/Navbar'
 import ContactUs from './components/ContactUs'
-// import Visualizer from './components/Visualizer'
-import HuffmanTree from './components/HuffmanTree'
+import Visualization from './components/Visualization'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
 const App = () => {
   return (
@@ -16,8 +15,8 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/visualizer" element={<HuffmanTree />} />
           <Route path="/contact" element={<ContactUs />} />
+          <Route path="/visualizer" element={<Visualization />} />
         </Routes>
       </Router>
     </div>
